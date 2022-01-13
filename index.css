@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	--blue: rgb(61, 139, 202);
+}
+
+.logo-cont {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.nav {
+	display: flex;
+	margin-top: 20px;
+	list-style-type: none;
+	justify-content: center;
+}
+
+.nav a {
+	padding: 10px 16px;
+}
+
+.nav a, .nav a:link, .nav a:visited, .nav a:active {
+	color: gray;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: var(--blue);
+	border-bottom: 2px solid var(--blue);
+}
+
+.bg-cont {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+.bg {
+	width: 70vw;
+}
+
+main {
+	width: 70vw;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 15vw;
+	justify-content: space-between;
+}
+
+.content-cont {
+	height: 36vh;
+	padding: 20px;
+	overflow: scroll;
+	background-color: #eee;
+}
+
+.content-cont:nth-child(1) {
+	width: 50vw;
+}
+
+.content-cont:nth-child(2) {
+	width: calc(20vw - 20px);
+}
+
+.content-cont h1 {
+	font-size: 18px;
+	color: var(--blue);
+	margin-bottom: 10px;
+}
+
+.text {
+	color: gray;
+	font-size: 14px;
+}
+
+.content-cont tel {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+footer {
+	width: 70vw;
+	padding: 20px;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 15vw;
+	margin-bottom: 20px;
+	align-items: center;
+	background-color: #eee;
+	justify-content: space-between;
+}
+
+footer img {
+	width: 6vw;
+}
+
+footer div tel {
+	color: #666;
+	font-size: 16px;
+	text-align: right;
+}
